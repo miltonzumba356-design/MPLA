@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 128" role="img" aria-labelledby="title desc">
+  <title id="title">MPLA</title>
+  <desc id="desc">Marca MPLA em vermelho, preto e dourado</desc>
+  <rect width="420" height="128" rx="18" fill="none"/>
+  <g transform="translate(10 10)">
+    <circle cx="54" cy="54" r="50" fill="#CC0000"/>
+    <circle cx="54" cy="54" r="38" fill="#A30000"/>
+    <path d="M54 16l8.7 26.8H91L68.1 59.4l8.8 26.8L54 69.6 31.1 86.2l8.8-26.8L17 42.8h28.3z" fill="#F0D078"/>
+    <path d="M24 93c14-12 29-18 48-18 8 0 16 1 24 4-12 10-28 16-46 16-9 0-17-1-26-2z" fill="#111111" opacity=".92"/>
+  </g>
+  <g transform="translate(132 27)">
+    <text x="0" y="50" font-family="Montserrat, Arial, sans-serif" font-size="56" font-weight="900" fill="#CC0000" letter-spacing="2">MPLA</text>
+    <rect x="2" y="62" width="210" height="5" rx="2.5" fill="#111111"/>
+    <text x="0" y="90" font-family="Open Sans, Arial, sans-serif" font-size="15" font-weight="700" fill="#444444" letter-spacing=".5">Angola em primeiro lugar</text>
+  </g>
+</svg>

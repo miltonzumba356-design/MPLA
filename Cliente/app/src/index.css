@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Open Sans', system-ui, -apple-system, sans-serif;
+  background: #F5F5F5;
+  color: #111111;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6, button, .font-sans {
+  font-family: 'Montserrat', 'Open Sans', system-ui, -apple-system, sans-serif;
+}
+
+#root { width: 100%; }
+
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #CBD5E1; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #94A3B8; }
+
+/* ─────────────────────────────────────────────────────
+   PALETA CNE ANGOLA  ·  Azul #CC0000
+   Sem vermelho · Sem preto · Sem emojis
+   ───────────────────────────────────────────────────── */
+:root {
+  --red:         #CC0000;
+  --red-dark:    #A30000;
+  --red-darker:  #7A0000;
+  --red-light:   #E63333;
+  --red-pale:    #FFE5E5;
+
+  --gold:        #B8960C;
+  --gold-dark:   #7A6000;
+  --gold-light:  #FBF6E3;
+
+  --text:        #111111;
+  --text-muted:  #64748B;
+  --bg:          #F5F5F5;
+  --card:        #FFFFFF;
+  --border:      #E2E8F0;
+  --sidebar:     #111111;
+
+  --blue:        var(--red);
+  --blue-dark:   var(--red-darker);
+  --blue-mid:    var(--red-dark);
+  --blue-light:  var(--red-pale);
+  --blue-xlight: #FFF7F7;
+}
