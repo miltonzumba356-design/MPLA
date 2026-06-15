@@ -1,0 +1,40 @@
+# ClacsListening — Python dependencies
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+pydantic==2.7.1
+pydantic-settings==2.2.1
+
+# Database
+sqlalchemy==2.0.29
+alembic==1.13.1
+asyncpg==0.29.0
+psycopg2-binary==2.9.9
+
+# Cache / Queue
+redis==5.0.4
+arq==0.25.0
+
+# HTTP clients
+httpx==0.27.0
+aiohttp==3.9.5
+
+# RSS / HTML parsing
+feedparser==6.0.11
+beautifulsoup4==4.12.3
+lxml==5.2.1
+
+# AI
+anthropic==0.27.0
+
+# Auth
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.9
+
+# Logging
+structlog==24.1.0
+
+# Utilities
+tenacity==8.3.0
+python-dotenv==1.0.1
+schedule==1.2.1

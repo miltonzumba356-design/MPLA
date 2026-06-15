@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "clacslistening-frontend",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "Cliente/app"],
+      "port": 3000
+    },
+    {
+      "name": "electrotime",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "C:\\Users\\HP\\Downloads\\ElectroTime\\electrotime-app"],
+      "port": 5174
+    }
+  ]
+}
