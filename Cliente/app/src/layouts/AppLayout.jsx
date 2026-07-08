@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import {
   LayoutDashboard, MessageSquare, BarChart2, GitCompare,
   FileText, Plus, Bell, LogOut, ChevronRight,
-  Menu, X, Mail, TrendingUp, CalendarDays
+  Menu, X, Mail, TrendingUp, CalendarDays, ShieldAlert
 } from 'lucide-react'
 import { projects, cneInfo } from '../data/mock'
 import CNELogo from '../components/CNELogo'
@@ -14,6 +14,7 @@ const NAV = [
   { icon: BarChart2,     label: 'Análise',    to: 'analysis'   },
   { icon: GitCompare,    label: 'Comparação', to: 'comparison' },
   { icon: FileText,      label: 'Relatórios', to: 'reports'    },
+  { icon: ShieldAlert,   label: 'Fake News',  to: 'fake-news'  },
 ]
 
 export default function AppLayout() {

@@ -7,6 +7,7 @@ import Mentions from './pages/Mentions'
 import Analysis from './pages/Analysis'
 import Comparison from './pages/Comparison'
 import Reports from './pages/Reports'
+import FakeNews from './pages/FakeNews'
 import NewProject from './pages/NewProject'
 import { getToken } from './api'
 
@@ -28,6 +29,7 @@ export default function App() {
           <Route path="analysis/:projectId?" element={<Analysis />} />
           <Route path="comparison/:projectId?" element={<Comparison />} />
           <Route path="reports/:projectId?" element={<Reports />} />
+          <Route path="fake-news/:projectId?" element={<FakeNews />} />
           <Route path="new-project" element={<NewProject />} />
         </Route>
         <Route path="*" element={<Navigate to="/" replace />} />

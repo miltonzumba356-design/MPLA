@@ -79,4 +79,9 @@ export const api = {
     method: 'POST',
     body: JSON.stringify(payload),
   }),
+  fakeNewsChecks: (projectId) => request(`/fake-news/?project_id=${projectId}`),
+  checkFakeNews: (payload) => request('/fake-news/check', {
+    method: 'POST',
+    body: JSON.stringify(payload),
+  }),
 }
